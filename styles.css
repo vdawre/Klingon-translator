@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    --primary-color: #1b1b1b;
+    --secondary-color: #B6FFFF;
+}
+
+html {
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: var(--primary-color);
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+#inputText {
+    width: 36rem;
+    height: 3.6rem;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem auto 1rem auto;
+    border: 0.2rem solid var(--secondary-color);
+    border-radius: 16px;
+    font-size: 2rem;
+}
+
+#btn {
+    font-size: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-top: 2rem;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 2rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 16px;
+}
+
+#btn:active {
+    background-color: var(--secondary-color);
+    color: var(--colormax);
+}
+
+#output {
+    display: block;
+    width: 36rem;
+    height: 6rem;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: white;
+    border: 0.2rem solid var(--secondary-color);
+    border-radius: 16px;
+    text-align: center;
+    font-size: 2rem;
+    word-spacing: .1rem;
+    color: black;
+    padding-top: 1rem;
+    font-weight: 400;
+}
